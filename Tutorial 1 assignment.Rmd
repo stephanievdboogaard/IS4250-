@@ -1,0 +1,11 @@
+---
+title: "IS4250Tutorial1"
+author: "Stephanie van den Boogaard"
+date: "22 januari 2016"
+output: html_document
+---
+```{r}
+library(ggplot2)
+ggplot(data = cars,aes(x = speed,y = dist)) + geom_point()
+dplyr::filter(cars, speed == 4)
+```
